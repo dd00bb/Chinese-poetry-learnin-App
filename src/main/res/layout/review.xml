@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/reTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:gravity="center"
+        android:textSize="35dp"/>
+    <TextView
+        android:id="@+id/reAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:gravity="center"
+        android:textSize="35dp"/>
+    <TextView
+        android:id="@+id/reLine1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:gravity="center"
+        android:textSize="32dp"/>
+    <TextView
+        android:id="@+id/reLine2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:gravity="center"
+        android:textSize="32dp"/>
+    <TextView
+        android:id="@+id/reLine3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:gravity="center"
+        android:textSize="32dp"/>
+    <TextView
+        android:id="@+id/reLine4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:gravity="center"
+        android:textSize="32dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/reMeas"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/remember"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_drawable"
+            android:layout_weight="1"
+            android:text="记得" />
+
+        <Button
+            android:id="@+id/vague"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_drawable"
+            android:layout_weight="1"
+            android:text="模糊" />
+
+        <Button
+            android:id="@+id/forget"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_drawable"
+            android:layout_weight="1"
+            android:text="忘记" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
